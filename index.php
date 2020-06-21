@@ -5,7 +5,7 @@
                 <link rel="shortcut icon" href="https://cjthedj97.me/fav.ico" type="image/x-icon" />
         </head>
 <body>
-<body bgcolor="Silver">
+<body bgcolor="#222831">
 <font color="white">
 
 <?php echo "<h2>Your IP Infomation</h2>"; ?>
