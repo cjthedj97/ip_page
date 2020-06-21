@@ -31,4 +31,7 @@
 <?php #echo "Cloudflare Ray ID: "; #echo $_SERVER["HTTP_CF_RAY"]; #echo "<br>"; ?>
 </basefont>
 </body>
+<footer>
+For a minimal ip page go to https://ip.cjthedj97.me/m.php
+</footer>
 </html>
