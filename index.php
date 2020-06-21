@@ -4,6 +4,7 @@
                 <meta charset="utf-8" />
                 <link rel="shortcut icon" href="https://cjthedj97.me/fav.ico" type="image/x-icon" />
         </head>
+<body bgcolor="Silver">
 
 <?php echo "<h2>Your IP Infomation</h2>"; ?>
 
@@ -27,4 +28,5 @@
 
 <?php #echo "Cloudflare Ray ID: "; #echo $_SERVER["HTTP_CF_RAY"]; #echo "<br>"; ?>
 
+</body>
 </html>
