@@ -6,7 +6,7 @@
         </head>
 <body>
 <body bgcolor="#222831">
-<font color="white">
+<font color="#ececec">
 
 <?php echo "<h2>Your IP Infomation</h2>"; ?>
 
