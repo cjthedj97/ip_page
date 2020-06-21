@@ -4,4 +4,4 @@
 
 <?php echo "Country: "; echo $_SERVER["HTTP_CF_IPCOUNTRY"]; ?>
 
-<?php echo "User Agent: "; echo $_SERVER["HTTP_USER_AGENT"]; ?>
+<?php echo " " ?>
