@@ -4,4 +4,4 @@
 
 <?php echo "Country: "; echo $_SERVER["HTTP_CF_IPCOUNTRY"]; ?>
 
-<?php echo " " ?>
+<?php echo "" ?>
