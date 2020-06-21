@@ -32,7 +32,7 @@ ErrorDocument 404 /404.html
 
 ### Redirects ##########################################################
 RewriteEngine on
-RewriteCond %{HTTP_USER_AGENT} !^(*curl*|*bot*|*lunx*|*w3m*|*wget*|*elinks*|*cmd*|*powershell*) [NC]
+RewriteCond %{HTTP_USER_AGENT} ^(*curl*|*bot*|*lunx*|*w3m*|*wget*|*elinks*|*cmd*|*powershell*) [NC]
 RewriteRule ^/index\.php$ /m.php [L]
 
 ### Deny specific File extensions ######################################
