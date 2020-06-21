@@ -7,7 +7,7 @@
 
 <?php echo "<h2>Your IP Infomation</h2>"; ?>
 
-<?php echo "Your IP: "; echo $_SERVER["HTTP_CF_CONNECTING_IP"]; echo "<br>"; ?>
+<?php echo "<font color="#800000"> Your IP: "; echo $_SERVER["HTTP_CF_CONNECTING_IP"]; echo "<br>"; ?>
 
 <?php echo "Country: "; echo $_SERVER["HTTP_CF_IPCOUNTRY"]; echo "<br>"; ?>
 
