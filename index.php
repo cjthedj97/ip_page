@@ -32,6 +32,8 @@
 </basefont>
 </body>
 <footer>
-For a minimal ip page go to https://ip.cjthedj97.me/m.php
+<p></p>
+<p></p>
+<p>For a minimal ip page go to https://ip.cjthedj97.me/m.php</p>
 </footer>
 </html>
