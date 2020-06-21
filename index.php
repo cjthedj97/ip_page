@@ -34,6 +34,6 @@
 <footer>
 <p></p>
 <p></p>
-<p>For a minimal ip page go to https://ip.cjthedj97.me/m.php</p>
+<h4>For a minimal ip page go to https://ip.cjthedj97.me/m.php</h4>
 </footer>
 </html>
