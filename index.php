@@ -10,15 +10,13 @@
 
 <?php echo "<h2>Your IP Infomation</h2>"; ?>
 
-<?php echo  "Your IP: "; echo $_SERVER["HTTP_CF_CONNECTING_IP"]; echo "<br>"; ?>
+<?php echo  "Your IP: "; echo $_SERVER["REMOTE_ADDR"] ;echo "<br>"; ?>
 
 <?php echo "Country: "; echo $_SERVER["HTTP_CF_IPCOUNTRY"]; echo "<br>"; ?>
 
 <?php echo "User Agent: "; echo $_SERVER["HTTP_USER_AGENT"]; echo "<br>"; ?>
 
 <?php echo "<h3> Cloudflare Data</h3>"; ?>
-
-<?php echo "Cloudflare server IP: "; echo $_SERVER["REMOTE_ADDR"]; echo "<br>"; ?>
 
 <?php echo "HTTP Protocol: "; echo $_SERVER["SERVER_PROTOCOL"]; echo "<br>"; ?>
 
