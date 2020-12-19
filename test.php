@@ -8,8 +8,8 @@
 <style>
 body {
   padding: 25px;
-  background-color:#222831;
-  color:#222831;
+  background-color: DarkSlateGrey;
+  color: White;
   font-size: 25px;
 }
 
