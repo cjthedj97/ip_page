@@ -39,8 +39,6 @@ body {
 <?php echo "Port Connecting to Orgin Server: "; echo $_SERVER["SERVER_PORT"]; echo "<br>"; ?>
 
 <?php #echo "Cloudflare Ray ID: "; #echo $_SERVER["HTTP_CF_RAY"]; #echo "<br>"; ?>
-</body>
-<footer>
 <p></p>
 <p></p>
 <h6>Toggle Dark/Light Mode</h6>
