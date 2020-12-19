@@ -1,14 +1,26 @@
+<!DOCTYPE html>
 <html lang="en">
-        <head>
-                <title>Your IP Infomation</title>
-                <meta charset="utf-8" />
-                <link rel="shortcut icon" href="https://cjthedj97.me/fav.ico" type="image/x-icon" />
-        </head>
-<body>
-<body bgcolor="#222831">
-<font color="#ececec">
+<html>
+<head>
+<title>Your IP Infomation</title>
+<meta charset="utf-8" />
+<link rel="shortcut icon" href="https://cjthedj97.me/fav.ico" type="image/x-icon" />
+<style>
+body {
+  padding: 25px;
+  background-color: #222831;
+  color: #ececec;
+  font-size: 25px;
+}
 
-<?php echo "<h2>Your IP Infomation</h2>"; ?>
+.light-mode {
+  background-color: white;
+  color: black;
+}
+</style>
+</head> 
+<body>
+<h2>Your IP Infomation</h2>
 
 <?php echo  "Your IP: "; echo $_SERVER["REMOTE_ADDR"] ;echo "<br>"; ?>
 
@@ -16,7 +28,7 @@
 
 <?php echo "User Agent: "; echo $_SERVER["HTTP_USER_AGENT"]; echo "<br>"; ?>
 
-<?php echo "<h3> Cloudflare Data</h3>"; ?>
+<h3> Cloudflare Data</h3>
 
 <?php echo "HTTP Protocol: "; echo $_SERVER["SERVER_PROTOCOL"]; echo "<br>"; ?>
 
@@ -27,11 +39,21 @@
 <?php echo "Port Connecting to Orgin Server: "; echo $_SERVER["SERVER_PORT"]; echo "<br>"; ?>
 
 <?php #echo "Cloudflare Ray ID: "; #echo $_SERVER["HTTP_CF_RAY"]; #echo "<br>"; ?>
-</basefont>
 </body>
 <footer>
 <p></p>
 <p></p>
 <h5>For a minimal ip page go to <a href=/m/">ip.cjthedj97.me/m</a></h5>
-</footer>
+<h5>Toggle Dark/Light Mode</h5>
+<p>Click the button to toggle between dark and light mode for this page.</p>
+
+<button onclick="myFunction()">Toggle light mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("light-mode");
+}
+</script>
+</body>
 </html>
