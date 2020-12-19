@@ -41,7 +41,8 @@ body {
 <?php #echo "Cloudflare Ray ID: "; #echo $_SERVER["HTTP_CF_RAY"]; #echo "<br>"; ?>
 <p></p>
 <p></p>
-<h4>Toggle Dark/Light Mode</h4>
+<h4>For a minimal ip page go to <a href=/m/">ip.cjthedj97.me/m</a></h4>
+<h5>Toggle Dark/Light Mode</h5>
 <button onclick="myFunction()">Toggle light mode</button>
 <script>
 function myFunction() {
@@ -49,6 +50,5 @@ function myFunction() {
    element.classList.toggle("light-mode");
 }
 </script>
-<h5>For a minimal ip page go to <a href=/m/">ip.cjthedj97.me/m</a></h5>
 </body>
 </html>
