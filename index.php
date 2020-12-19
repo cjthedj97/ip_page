@@ -43,7 +43,7 @@ body {
 <footer>
 <p></p>
 <p></p>
-<h7>Toggle Dark/Light Mode</h7>
+<h6>Toggle Dark/Light Mode</h6>
 <p>Click the button to toggle between dark and light mode for this page.</p>
 
 <button onclick="myFunction()">Toggle light mode</button>
@@ -53,7 +53,7 @@ function myFunction() {
    var element = document.body;
    element.classList.toggle("light-mode");
 }
-  <h5>For a minimal ip page go to <a href=/m/">ip.cjthedj97.me/m</a></h5>
 </script>
+<h6>For a minimal ip page go to <a href=/m/">ip.cjthedj97.me/m</a></h6>
 </body>
 </html>
