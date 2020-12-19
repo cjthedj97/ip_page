@@ -41,7 +41,7 @@ body {
 <?php #echo "Cloudflare Ray ID: "; #echo $_SERVER["HTTP_CF_RAY"]; #echo "<br>"; ?>
 <p></p>
 <p></p>
-<h6>Toggle Dark/Light Mode</h6>
+<h4>Toggle Dark/Light Mode</h4>
 <button onclick="myFunction()">Toggle light mode</button>
 <script>
 function myFunction() {
