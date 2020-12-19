@@ -54,6 +54,6 @@ function myFunction() {
    element.classList.toggle("light-mode");
 }
 </script>
-<h6>For a minimal ip page go to <a href=/m/">ip.cjthedj97.me/m</a></h6>
+<h5>For a minimal ip page go to <a href=/m/">ip.cjthedj97.me/m</a></h5>
 </body>
 </html>
