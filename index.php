@@ -44,7 +44,6 @@ body {
 <p></p>
 <p></p>
 <h6>Toggle Dark/Light Mode</h6>
-<p>Click the button to toggle between dark and light mode for this page.</p>
 <button onclick="myFunction()">Toggle light mode</button>
 <script>
 function myFunction() {
