@@ -60,5 +60,5 @@ AddOutputFilterByType DEFLATE application/x-javascript
 
 ### Redirect Curl to Minimal page  #######################################
 RewriteCond %{HTTP_USER_AGENT} curl 
-RewriteRule ^ https://ip.cjthedj97.me/m/ [R=301]
+RewriteRule ^ https://ip.cjthedj97.me/m/ [P]
 
