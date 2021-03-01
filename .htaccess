@@ -59,7 +59,6 @@ AddOutputFilterByType DEFLATE application/x-javascript
 </IfModule>
 
 #### Redirect Curl to Minimal page  #######################################
-#SSLProxyEngine On
-#RewriteCond %{HTTP_USER_AGENT} curl 
-#RewriteRule ^ https://ip.cjthedj97.me/m/ [P]
+RewriteCond %{HTTP_USER_AGENT} curl 
+RewriteRule ^ /m/ [P]
 
