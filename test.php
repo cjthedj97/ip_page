@@ -2,7 +2,6 @@
 
 if(strpos($_SERVER['HTTP_USER_AGENT'], 'curl') !== FALSE)
    echo 'curl';
-    echo 'Internet explorer';
  elseif(strpos($_SERVER['HTTP_USER_AGENT'], 'Firefox') !== FALSE)
    echo 'Mozilla Firefox';
  elseif(strpos($_SERVER['HTTP_USER_AGENT'], 'Chrome') !== FALSE)
