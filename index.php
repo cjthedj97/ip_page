@@ -18,8 +18,11 @@ if(strpos($_SERVER['HTTP_USER_AGENT'], 'curl') !== FALSE)
    echo $_SERVER["REMOTE_ADDR"] , "\n"; 
  elseif(strpos($_SERVER['HTTP_USER_AGENT'], 'PycURL') !== FALSE)
    echo $_SERVER["REMOTE_ADDR"] , "\n"; 
-    elseif(strpos($_SERVER['HTTP_USER_AGENT'], 'PECL::HTTP') !== FALSE)
+ elseif(strpos($_SERVER['HTTP_USER_AGENT'], 'PECL::HTTP') !== FALSE)
    echo $_SERVER["REMOTE_ADDR"] , "\n";
+ elseif(strpos($_SERVER['HTTP_USER_AGENT'], 'ddclient') !== FALSE)
+   echo $_SERVER["REMOTE_ADDR"] , "\n";
+
 
 else
    include 'desktop_main.php';
