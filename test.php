@@ -1,9 +1,9 @@
 <?php
 
 if(strpos($_SERVER['HTTP_USER_AGENT'], 'curl') !== FALSE)
-   echo 'curl';
+   echo $_SERVER["REMOTE_ADDR"];
  elseif(strpos($_SERVER['HTTP_USER_AGENT'], 'WindowsPowerShell') !== FALSE)
-   echo 'Powershell';
+   echo $_SERVER["REMOTE_ADDR"];
  elseif(strpos($_SERVER['HTTP_USER_AGENT'], 'Chrome') !== FALSE)
    echo 'Google Chrome';
  else
