@@ -27,5 +27,5 @@ if (isset($_GET['print']) && $_GET['print'] != ""
 }
 else 
 {
-    echo 'Other code goes here';
+    echo ' code goes here';
 }
