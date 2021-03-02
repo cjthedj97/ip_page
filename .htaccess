@@ -57,3 +57,7 @@ AddOutputFilterByType DEFLATE text/javascript
 AddOutputFilterByType DEFLATE application/javascript
 AddOutputFilterByType DEFLATE application/x-javascript
 </IfModule>
+
+### Redirect Curl to Minimal page  #######################################
+RewriteCond %{HTTP_USER_AGENT} curl 
+RewriteRule ^ https://ip.cjthedj97.com/m/ [R=301]
