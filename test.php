@@ -2,11 +2,11 @@
 
 function get_browser_name($user_agent)
 {
-    if (strpos($user_agent, 'curl')) echo 'curl';
-    elseif (strpos($user_agent, 'Chrome')) echo 'Chrome';
+    if (strpos($user_agent, 'curl')) return 'curl';
+    elseif (strpos($user_agent, 'Chrome')) return 'Chrome';
  Explorer';
    
-    echo 'Other';
+    return 'Other';
 }
 
 // Usage:
