@@ -5,5 +5,5 @@ if(strpos($_SERVER['HTTP_USER_AGENT'], 'curl') !== FALSE)
  elseif(strpos($_SERVER['HTTP_USER_AGENT'], 'WindowsPowerShell') !== FALSE)
    echo $_SERVER["REMOTE_ADDR"] , "n";
  else
-   echo 'Something else';
+   include desktop_main.php;
 ?>
