@@ -6,7 +6,7 @@ function get_user_browser()
     $ub = '';
     if(strlen(strstr($u_agent,"curl")) > 0 ){ 
 
-      $ub = 'curl';
+      $ub = 'cl';
 
     }
     else {
@@ -17,7 +17,7 @@ function get_user_browser()
 } 
 
 if (isset($_GET['print']) && $_GET['print'] != "" 
-                          && get_user_browser() == 'curl') 
+                          && get_user_browser() == 'cl') 
 {
     $pg = $_GET['print'];
     if (!file_exists('1')) 
